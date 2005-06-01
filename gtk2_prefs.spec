@@ -39,16 +39,16 @@ Preferencje GTK+ - zmieñ temat i czcionkê
 %install
 rm -rf $RPM_BUILD_ROOT
 
-install -d $RPM_BUILD_ROOT%{_desktopdir}
+#install -d $RPM_BUILD_ROOT%{_desktopdir}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
 #%post
-#%update_desktop_database_post
+#%%update_desktop_database_post
 
 #%postun
-#%update_desktop_database_postun
+#%%update_desktop_database_postun
 
 %clean
 rm -rf $RPM_BUILD_ROOT

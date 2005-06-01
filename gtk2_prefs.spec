@@ -1,5 +1,5 @@
 Summary:	GTK+ preference utility - theme and font switcher
-Summary(pl):	Preferencje GTK+ - zmieñ temat i czcionkê
+Summary(pl):	Preferencje GTK+ - zmiana motywu i czcionki
 Name:		gtk2_prefs
 Version:	0.4.0
 Release:	0.1
@@ -18,10 +18,10 @@ BuildRequires:	rpmbuild(macros) >= 1.197
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-GTK+ version 2 preference utility - theme and font switcher
+GTK+ version 2 preference utility - theme and font switcher.
 
 %description -l pl
-Preferencje GTK+ - zmieñ temat i czcionkê
+Preferencje GTK+ - zmiana motywu i czcionki.
 
 %prep
 %setup -q

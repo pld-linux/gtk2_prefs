@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=GTK2 Preferences
+Name[pl]=GTK2 - Ustawienia
+Exec=gtk2_prefs
+Type=Application
+Terminal=false
+MapNotify=false
+Encoding=UTF-8
+Categories=GTK;Settings;DesktopSettings;
+Icon=gtk2_prefs.png
+# vi: encoding=utf-8

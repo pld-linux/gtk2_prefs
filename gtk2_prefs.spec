@@ -1,12 +1,12 @@
 Summary:	GTK+ preference utility - theme and font switcher
 Summary(pl):	Preferencje GTK+ - zmiana motywu i czcionki
 Name:		gtk2_prefs
-Version:	0.4.0
-Release:	0.2
+Version:	0.4.1
+Release:	0.1
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://members.lycos.co.uk/alexv6/pub/gtk/%{name}-%{version}.tar.bz2
-# Source0-md5:	95291299651fe34f18017a11fc0ca933
+# Source0-md5:	873d2a7707e1dcadc861399434d98d86
 Source1:	%{name}.desktop
 Source2:	%{name}.png
 URL:		http://members.lycos.co.uk/alexv6/
